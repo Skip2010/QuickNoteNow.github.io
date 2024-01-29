@@ -1,0 +1,53 @@
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  transition: background-color 0.5s;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+input {
+  font-family: 'Honk', system-ui;
+}
+
+textarea {
+  font-family: 'Honk', system-ui;
+}
+
+body {
+  font-family: 'Honk', system-ui;
+}
+
+button {
+  font-family: 'Honk', system-ui;
+}
+
+h1 {
+  font-size: 500%;
+}
+
+input {
+  font-size: 150%;
+}
+
+textarea {
+  font-size: 150%;
+}
+
+button {
+  font-size: 200%;
+}
+

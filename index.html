@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Honk&family=Young+Serif&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>QuickNoteNow</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+<body class="center">
+  <div>
+  <h1>QuickNoteNow</h1>
+  <input type="checkbox" id="theme-switch" onclick="changeTheme()">
+  <label for="theme-switch">Switch theme</label> 
+  <br>
+  <br>
+  <input type="text" id="title-input" placeholder=" Title">
+  <br>
+  <br>
+  <textarea id="text-input" placeholder=" Content"></textarea>
+  <br>
+  <br>
+
+  <button onclick="saveText()">Save as Text</button>
+  <button onclick="saveWord()">Save as Word</button>
+  <button onclick="saveGoogleDocs()">Save as Google Docs</button>
+  
+  </div>
+</body>
+</html>
