@@ -13,41 +13,25 @@ body {
   margin: auto;
   width: 50%;
   padding: 10px;
-}
-
-.center {
   text-align: center;
 }
 
-input {
-  font-family: 'Honk', system-ui;
-}
-
-textarea {
-  font-family: 'Honk', system-ui;
-}
-
-body {
-  font-family: 'Honk', system-ui;
-}
-
-button {
-  font-family: 'Honk', system-ui;
+input, textarea {
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
   font-size: 500%;
 }
 
-input {
+label {
   font-size: 150%;
 }
 
-textarea {
-  font-size: 150%;
-}
-
-button {
+input, textarea, button {
   font-size: 200%;
 }
 
+ label, button, h1, input::placeholder, textarea::placeholder {
+  font-family: 'Honk', system-ui;/* set different font for placeholders */
+}
