@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-input, textarea {
+input, textarea, footer {
   font-family: 'Arial', sans-serif;
 }
 
@@ -34,4 +34,24 @@ input, textarea, button {
 
  label, button, h1, input::placeholder, textarea::placeholder {
   font-family: 'Honk', system-ui;/* set different font for placeholders */
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey;
+}
+
+/* selected link */
+a:active {
+  color: grey;
 }
